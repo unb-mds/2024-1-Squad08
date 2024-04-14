@@ -317,11 +317,11 @@ button .arrow::before {
 }
 
 button:hover {
-    background-color: var(--hover-color);
+    background-color: var(--corSecundaria);
 }
 
 button:hover .arrow {
-    background-color: var(--hover-color);
+    background-color: var(--corSecundaria);
 }
 
 button:hover .arrow:before {
