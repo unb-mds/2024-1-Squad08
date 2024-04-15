@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniRep</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ladoEsquerdo">
+        <div class="box">
+            <a href="index.html">
+                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                width="30px" height="30px" viewBox="0 0 299.021 299.021" xml:space="preserve">
+           <g>
+               <g>
+                   <path d="M292.866,254.432c-2.288,0-4.443-1.285-5.5-3.399c-0.354-0.684-28.541-52.949-146.169-54.727v51.977 c0,2.342-1.333,4.48-3.432,5.513c-2.096,1.033-4.594,0.793-6.461-0.63L2.417,154.392C0.898,153.227,0,151.425,0,149.516 c0-1.919,0.898-3.72,2.417-4.888l128.893-98.77c1.87-1.426,4.365-1.667,6.461-0.639c2.099,1.026,3.432,3.173,3.432,5.509v54.776 c3.111-0.198,7.164-0.37,11.947-0.37c43.861,0,145.871,13.952,145.871,143.136c0,2.858-1.964,5.344-4.75,5.993 C293.802,254.384,293.34,254.432,292.866,254.432z"/>
+               </g>
+           </g>
+           </svg>
+            </a>
+        </div>
+    </div>
+    
+    <div class="ladoDireito">
+        <div class="content">
+            <div class="textos">
+                <h1 class="titulo">UniRep</h1>
+                <h2 class="subtitle"> Repúblicas Universitárias </h2>
+                <h3 class="informe"> Por favor, preencha todos os campos abaixo.</h3>
+            </div>
+
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <div class="input-group">
+                        <input placeholder="Nome:" type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="input-group">
+                        <select class="option" id="sexo" name="sexo" required aria-placeholder="sexo">
+                            <option value="">Selecione o sexo</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input placeholder="CPF:" type="text" id="cpf" name="cpf" required>
+                        <input placeholder="data_nascimento" type="date" id="data_nascimento" name="data_nascimento" required>
+                    </div>
+                    <div class="input-group">
+                        <input placeholder="E-mail:" type="email" id="email" name="email" required>
+                        <input placeholder="Verificar E-mail:" type="email" id="verify_email" name="verify_email" required>
+                    </div>
+                    <div class="input-group">
+                        <input placeholder="Senha:" type="password" id="password" name="senha" required>
+                        <input placeholder="Verificar Senha:" type="password" id="verify_senha" name="verify_senha" required>
+                    </div>   
+                    <div class="checkbox-wrapper-2">
+                        <input type="checkbox" id="showPassword" class="checkmark sc-gJwTLC ikxBAC">
+                        <label for="show-password" style="vertical-align:top">Mostrar Senha</label>
+                    </div>
+                    <div class="button-container">
+                        <a href="index.html" style="text-decoration: none;">
+                            <button class="cadastrar" onclick="comparar()">
+                                Cadastrar
+                                <div class="arrow-wrapper">
+                                    <div class="arrow"></div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+<script>
+    var showPasswordCheckbox = document.getElementById('showPassword');
+    var showVerifyPasswordCheckbox = document.getElementById('showPassword');
+    showPasswordCheckbox.addEventListener('change', function() {
+        var passwordField = document.getElementById('password');
+        passwordField.setAttribute('type', this.checked ? 'text' : 'password');
+    });
+    showVerifyPasswordCheckbox.addEventListener('change', function() {
+        var verifyPasswordField = document.getElementById('verify_senha');
+        verifyPasswordField.setAttribute('type', this.checked ? 'text' : 'password');
+    });
+    // Verifique se a caixa de seleção está marcada na carga da página
+    if (showPasswordCheckbox.checked) {
+        document.getElementById('password').setAttribute('type', 'text');
+    }
+    if (showVerifyPasswordCheckbox.checked) {
+        document.getElementById('verify_senha').setAttribute('type', 'text');
+    }      
+</script>
+
+</html>
