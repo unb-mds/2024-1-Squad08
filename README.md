@@ -11,3 +11,11 @@
     <td align="center"><a href="https://github.com/RA-Salles"><img style="border-radius: 50%;" src="https://github.com/RA-Salles.png?size=100" width="100px;" alt=""/><br /><sub><b>Ryan Augusto</b></sub></a><br />
   </tr>
 </table>
+## BRANCH
+Essa branch é feita para estudar sobre o webscrapping, ou seja, não é uma branch para receber push, apenas para deixar registrado os estudos.
+
+## Setup
+Python 3 (pip)
+Beatiful Soup 4
+requests
+openpyxl
