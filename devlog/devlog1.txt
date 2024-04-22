@@ -1,0 +1,19 @@
+What is this?
+    This is where i document the process through which i desing and implement da stuff.
+    Also where i'll curse the living hell of most things i do. 
+
+150420241935
+    following along a tutorial from freecodecamp, since i dont have time to actually learn and master what I'll use.
+    Finished setting up a basic env, it seems. Now comes postgres, but i have slept 2 hours last night. It is 
+    killing me. My head hurts. Hopefully, I'll be alright and able to do it tomorrow. 
+    Can't win it all. At the very least, can't win it all in a single sprint.
+
+220420241930
+    Alright alright, gonna store some useful links for our database man later. He'll pro'lly need it
+    https://node-postgres.com/apis/client
+    https://youtu.be/ldYcgPKEZC8?list=PLnYRZ7yultfQOCXtZK-cskJWTun9Q89cf&t=429
+
+    Gonna do a basic template and everything else should be up to him...
+
+    
+    
