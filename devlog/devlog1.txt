@@ -15,5 +15,21 @@ What is this?
 
     Gonna do a basic template and everything else should be up to him...
 
+250420242036 
+    I fucked up real bad, ngl.
+    Had to remake the project and setup the gitignore correctly.
+    That right there fucked me over so bad.
+    AAAAnd the tutorial I was following, even though it actually was doing
+    something "simple", was pretty advanced. The project settings were very
+    unreal, too.
+    Ultrafun, had to start over.
+
+    Been about 5 hours in tutorial hell, it simply doesn't end.
+    Gonna take a break and get into it again. Stopped at params extra info, gonna be real useful to return 
+    republic data for the user...
+
+    
+
+
     
     
