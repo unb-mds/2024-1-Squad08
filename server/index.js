@@ -9,6 +9,12 @@ app.get('/', (req, res) => {
         res.status(200).sendFile(path.resolve(__dirname, './crudehtml/index.html'));
     }
 )
+app.get('/newuser', (req, res) => { 
+        res.status(200).sendFile(path.resolve(__dirname, './crudehtml/cadastro.html'));
+    }
+)
+
+
 
 app.all('*', (req, res) => { 
     res.status(404).send("<h1>NOT FOUND!</h1>");
