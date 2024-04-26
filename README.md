@@ -1,5 +1,17 @@
 # 2024-1-Squad08
 
+## Sobre o Projeto
+
+- O UniRep é um projeto da matéria Métodos de Desenvolvimento de Software, a qual tem como objetivo auxiliar os alunos universitários a encontrarem repúblicas perto de sua faculdade.
+
+## Escolhas Tecnológicas
+
+- Javascript/NodeJS como base
+- Figma para desing do front-end
+- Miro para planejamento das sprints
+- PostgresSQL para o banco de dados
+- React e Express como frameworks
+
 ## Membros
 
 <table>
@@ -11,3 +23,9 @@
     <td align="center"><a href="https://github.com/RA-Salles"><img style="border-radius: 50%;" src="https://github.com/RA-Salles.png?size=100" width="100px;" alt=""/><br /><sub><b>Ryan Augusto</b></sub></a><br />
   </tr>
 </table>
+
+## Documentação
+
+### Quadro virtual dos Stories, Backlog e Arquitetura base
+
+- Para acessar o quadro virtual, clique [aqui](https://miro.com/app/board/uXjVKWk1Q-I=/).
