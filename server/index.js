@@ -6,18 +6,17 @@ const path = require('path');
 app.use(express.static('./crudehtml'));
 
 app.get('/', (req, res) => { 
-        res.status(200).sendFile(path.resolve(__dirname, './crudehtml/index.html'));
+        res.status(200).sendFile(path.resolve(__dirname, './crudehtml/login.html'));
     }
 )
+
 app.get('/newuser', (req, res) => { 
         res.status(200).sendFile(path.resolve(__dirname, './crudehtml/cadastro.html'));
     }
 )
 
-
-
 app.all('*', (req, res) => { 
-    res.status(404).send("<h1>NOT FOUND!</h1>");
+    res.status(404).sendFile(path.resolve(__dirname,'./crudehtml/error.html'));
 })
 
 app.listen(5000, () => { 

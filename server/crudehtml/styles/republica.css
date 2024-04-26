@@ -1,0 +1,135 @@
+:root{
+    --corPrincipal: #FFC98A;
+    --corSecundaria: #D99F6B;
+}
+
+.titulo{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: auto;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  .logo {
+    display: inline-block; /* Isso impede que o link ocupe toda a largura */
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+    fill: #D99F6B;
+  }
+
+.colunaCima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Isso centraliza verticalmente os elementos */
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 15px;
+    background-color: var(--corPrincipal);
+}
+
+.RepName{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.restante{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.repsImages{
+    margin-right: 40px;
+    border-style: solid;
+    border-radius: 40px;
+    height: 580px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+  
+.imagem {
+    width: 360px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;    
+    height: 560px;
+    padding-right: 10px;
+}
+
+.imagem-dividida {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.sub-imagem {
+    width: 300px;
+    height: 275px;
+}
+
+
+.repInfos{
+    margin-right: 40px;
+    border-style: solid;
+    width: 500px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--corPrincipal);
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Valor{
+    margin-top: 10px;
+    font-size: 40px;
+    text-decoration: solid;
+}
+
+.fotoContainer{
+    border-style: solid;
+    height: 250px;
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.fotoImage{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.nomeAnfitriao{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 25px
+}
+
+
+
+.repRate{
+    border-style: solid;
+    width: 350px;
+    border-radius: 40px;
+}
+
