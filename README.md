@@ -12,5 +12,12 @@
   </tr>
 </table>
 
+## Documentação
+
+### Quadro virtual dos Stories, Backlog e Arquitetura base
+
+- Para acessar o quadro virtual, clique [aqui](https://miro.com/app/board/uXjVKWk1Q-I=/).
+
 ## What is this branch
-  This serves to test react, js and some postgres so when i commit to main i dont break EVERYTHING!
+
+This serves to test react, js and some postgres so when i commit to main i dont break EVERYTHING!
