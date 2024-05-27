@@ -25,8 +25,3 @@
 </table>
 
 
-## Setup
-Python 3 (pip)
-Beatiful Soup 4
-requests
-openpyxl
