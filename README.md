@@ -1,5 +1,17 @@
 # 2024-1-Squad08
 
+## Sobre o Projeto
+
+- O UniRep é um projeto da matéria Métodos de Desenvolvimento de Software, a qual tem como objetivo auxiliar os alunos universitários a encontrarem repúblicas perto de sua faculdade.
+
+## Escolhas Tecnológicas
+
+- Javascript/NodeJS como base
+- Figma para design do front-end
+- Miro para planejamento das sprints
+- PostgresSQL para o banco de dados
+- React e Express como frameworks
+
 ## Membros
 
 <table>
@@ -12,12 +24,4 @@
   </tr>
 </table>
 
-## Documentação
 
-### Quadro virtual dos Stories, Backlog e Arquitetura base
-
-- Para acessar o quadro virtual, clique [aqui](https://miro.com/app/board/uXjVKWk1Q-I=/).
-
-## What is this branch
-
-This serves to test react, js and some postgres so when i commit to main i dont break EVERYTHING!
