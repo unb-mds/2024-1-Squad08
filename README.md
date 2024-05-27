@@ -25,9 +25,6 @@
 </table>
 
 
-## BRANCH
-Essa branch é feita para estudar sobre o webscrapping, ou seja, não é uma branch para receber push, apenas para deixar registrado os estudos.
-
 ## Setup
 Python 3 (pip)
 Beatiful Soup 4
