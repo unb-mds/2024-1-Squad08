@@ -106,3 +106,25 @@ Reunião no Discord às 20:00 da Terça-feira dia 23/04/2024
   - Pedro teve dificuldades com o banco de dados.
 - A equipe discutiu e planejou ajustes para a próxima sprint.
 - Questões em aberto incluem problemas no banco de dados, protótipo do Figma, e o desenvolvimento do login e cadastro.
+
+
+# Sprint Greve (28/05/24 a 4/05/24)
+
+### Descrição
+
+  Sprint passada com aproveitamento básico:
+    - Github actions engatinhando
+    - Merges feitos -> trabalho até então colocado direto na main
+    - API -> travada nos displays das páginas
+
+  Preparando para acelerar para volta da greve.
+
+  Novo padrão criado:
+    - Pull requests na main devem ser feitos sem erros!!!
+      Desenvolvimento agora deve ser realizado nas branchs individuais.
+
+### Tarefas
+  - **Ryan:** Modelagem do banco de dados e API;
+  - **Renan:** Aprender CSS e React;
+  - **Pedro:** Modelagem do banco de dados e API;
+  - **João:** Aprender HTML e React.
