@@ -11,6 +11,7 @@
 - Miro para planejamento das sprints
 - PostgresSQL para o banco de dados
 - React e Express como frameworks
+- Beautiful Soup e Selenium para web scrapping
 
 ## Membros
 
