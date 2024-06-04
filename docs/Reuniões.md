@@ -124,7 +124,7 @@ Reunião no Discord às 20:00 da Terça-feira dia 23/04/2024
       Desenvolvimento agora deve ser realizado nas branchs individuais.
 
 ### Tarefas
-  - **Ryan:** Modelagem do banco de dados e API;
+  - **Ryan:** Modelagem do banco de dados (DER, MER, DLD) e API;
   - **Renan:** Aprender CSS e React;
-  - **Pedro:** Modelagem do banco de dados e API;
+  - **Pedro:** Modelagem do banco de dados (DER, MER, DLD) e API;
   - **João:** Aprender HTML e React.
