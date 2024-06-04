@@ -13,6 +13,9 @@
 - React e Express como frameworks
 - Beautiful Soup e Selenium para web scrapping
 
+## React-Branch
+Essa branch tem como objetivo criar o react app para rodar a aplicação.
+
 ## Membros
 
 <table>

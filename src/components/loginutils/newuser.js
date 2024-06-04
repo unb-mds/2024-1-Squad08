@@ -8,7 +8,7 @@ let bogusUser = {
     pass: 'somepass'
 }
 */
-let db = require('../db/db.js');
+let db = require('../../db/db.js');
 
 function verifyInfo(someuser) { 
 
