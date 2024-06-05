@@ -108,7 +108,7 @@ Reunião no Discord às 20:00 da Terça-feira dia 23/04/2024
 - Questões em aberto incluem problemas no banco de dados, protótipo do Figma, e o desenvolvimento do login e cadastro.
 
 
-# Sprint Greve (28/05/24 a 4/05/24)
+# Sprint Greve (28/05/24 a 4/06/24)
 
 ### Descrição
 
@@ -128,3 +128,21 @@ Reunião no Discord às 20:00 da Terça-feira dia 23/04/2024
   - **Renan:** Aprender CSS e React;
   - **Pedro:** Modelagem do banco de dados (DER, MER, DLD) e API;
   - **João:** Aprender HTML e React.
+
+
+  # Sprint Greve II (04/06/24 a 11/06/24)
+
+  ### Descrição
+
+    Sprint passada com seguintes aproveitamentos:
+      - Modelagem do banco de dados feita com sucesso.
+      - Preparação para transferência do projeto em html puro para react.
+      - Aprendizagem para execução das API's em progresso...
+      - Aprendizagem para transferência das htmls pra React em progresso...
+
+  ### Tarefas
+    - **Ryan:** Terminar scripts fisico e popula/ padronizar nomes de atributos e db;
+    - **Renan:** Terminar transferência do aplicativo pra um React App;
+    - **Pedro:** Modelagem/Coding das API's;
+    - **João:** React & Figma
+
