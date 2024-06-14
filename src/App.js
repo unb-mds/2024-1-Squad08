@@ -1,10 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import cadastro from './components/pages/cadastro';
+import cadastro from './components/pages/cadastro.js';
+import React from 'react';
+import { BrowserRouter as Router , Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    cadastro
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path = "/" element={<cadastro/>} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
