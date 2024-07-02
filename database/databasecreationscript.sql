@@ -12,6 +12,26 @@ note2: About user deletion
 	If the user gets deleted, so will his personal number used to setup the account. Beware that!
 	The DataBase should restrict the user deletion if he got a rent setup or if he got a republic 
     set up to be rented out. 
+    
+note3: on images
+	This database and the program SHOULD assume the user images are stored inside the application
+    folder. This means a path is stored as a char inside the database and it must be fetched by the application
+	as follows:
+		Access user info -> fetch and store e-mail -> access user image -> fetch and store path
+			-> access path -> fetch and display image information on the view.
+		As the user already got a bigass foreign key for an image inside (which may or may not be null),
+        it should be treated by the program. 
+        And because it got that BigAss id for an image, the proceedure to access the imagepath might be
+        simplified to:
+		Access user with the desired email-> get the image id -> access and fetch the imagepath -> display
+			image on the path it got. 
+		The user may or may not be able to access other users info. Beware on that and model accordingly. 
+	
+note4: on rents (alugueis)
+	DO NOT INCLUDE UNIQUE CONSTRAINTS FOR THE ATTRIBUTES (except, of course, the PK). The basic idea is the user
+    might need to rent twice on the same republic. This might mean he rented two rooms or something. 
+    Also, Many users might rent the same republic. This is not a system's problem, this is both the renter and rentee problem
+    and we ain't out here to solve how many people can fit inside a room.
 */
 CREATE DATABASE IF NOT EXISTS unirepdb_basic;
 

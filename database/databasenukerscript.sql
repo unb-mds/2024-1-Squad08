@@ -6,7 +6,7 @@ This script literally nukes the db. Useful for erasing the older one so we may w
 Use with assurance and moderation. 
 */
 
-use unirepdb_infobasic;
+use unirepdb_basic;
 
 SET FOREIGN_KEY_CHECKS = 0;
 
