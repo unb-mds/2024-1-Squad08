@@ -1,3 +1,5 @@
+"Written by BadCodeL0cvst, whose designs are terrible and, when good or somehow thought out, already designed by other people"
+
 ### -- What is this document --
     This document will display thoughts and researches on how to construct 
     a database centered messaging system with the following design constraints:
