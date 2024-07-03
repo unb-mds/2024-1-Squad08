@@ -13,6 +13,10 @@
 - React e Express como frameworks
 - Beautiful Soup e Selenium para web scrapping
 
+## Quadro virtual dos Stories, Backlog e Arquitetura base
+
+- Para acessar o quadro virtual, clique [aqui](https://miro.com/app/board/uXjVKWk1Q-I=/).
+
 ## Membros
 
 <table>
