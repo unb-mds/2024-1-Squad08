@@ -9,7 +9,7 @@
 - Javascript/NodeJS como base
 - Figma para design do front-end
 - Miro para planejamento das sprints
-- PostgresSQL para o banco de dados
+- MySQL para o banco de dados
 - React e Express como frameworks
 - Beautiful Soup e Selenium para web scrapping
 
