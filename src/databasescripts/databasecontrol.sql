@@ -19,6 +19,6 @@ grant all on unirepdb_basic.* to 'dev';
 grant select, insert, update, delete on unirepdb_basic.* to 'app';
 
 create user if not exists 'appdbfunctions' 
-    default role 'app'
     identified by 'unirep'
+    default role 'app';
 

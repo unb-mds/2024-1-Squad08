@@ -49,6 +49,34 @@
         hold at all times, of course. 
         As a newb in this kind of client-server programming, i have no fucking idea how to solve any of this bullshit :>
 
+### Constraint 2: User authentication
+    1. Reasoning
+        The system must and will always know at all times what user is using the app.
+        Else, we can't direct the messages to the correct user. Theoretically, it is possible
+        to use a new table for every conversation. As long as we name it using some kind of 
+        easy to access pattern and set users in the database with the correct patterns, 
+        the system should be able to find it no problem.
+
+    2. Basic Design 
+        2.1. Idea -> telegram style setup
+            The database should have tables for every two or more user conversation and the table 
+            name would rely on simple types. There might be groups to exchange messages, though it is 
+            not the focus nor the purpose of this system, therefore, one could simply not wander this 
+            way.
+
+            The table naming though could be very secure, but solving for multiple users would be a great,
+            very great pain.
+    
+### Constraints 3 & 4: User knowledge
+    1. Reasoning
+        This is a must. The user would find great benefits to knowing when and who received his message, as 
+        well as who the hell is sending him messages, specially considering this is for a renting site.
+    
+    2. Basic Design
+        This should be as simple as setting the ownership of conversations and attributes for the entities. One
+        of the most annoying things of any kind of system is when a non-critical information is being stored,
+        is relevant to the user and the setup refuses to display it without some kind of roundabout esoteric route.  
+
 
 
 
