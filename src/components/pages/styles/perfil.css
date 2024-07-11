@@ -1,0 +1,206 @@
+:root{
+    --corPrincipal: #FFC98A;
+    --corSecundaria: #D99F6B;
+}
+  
+body{
+    background-color: var(--corPrincipal); 
+    overflow: hidden; /* Evita a barra de rolagem vertical */
+}
+
+.titulo{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: auto;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  .logo {
+    display: inline-block; /* Isso impede que o link ocupe toda a largura */
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+    fill: #D99F6B;
+  }
+
+.colunaCima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Isso centraliza verticalmente os elementos */
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.restante{
+    background-color: var(--corSecundaria);
+    height: 100vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.ladoDireito {
+    flex: 3;
+}
+
+.ladoEsquerdo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.photo-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.photo-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.choose-box {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: white;
+    height: 130px;
+    width: 250px;
+    margin-top: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #ccc; /* Adiciona uma borda de 1px sólida cinza */
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    margin-top: 10%;
+}    
+
+.botaoGeral{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 80%;
+}
+
+.botaoGeral:disabled {
+    cursor: not-allowed; /* Altera o cursor para indicar que o botão está desativado */
+    background-color: #a2a2a2;
+}
+
+
+.botaoRepublica{
+    margin-top: 8%;
+}
+
+button {
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--corSecundaria);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--corPrincipal);
+}
+
+.form-container {
+    width: 800px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 5% auto 30px; /* Centraliza o formulário horizontalmente */
+    padding: 20px;
+    text-align: center; /* Alinha o conteúdo no centro */
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-group label,
+.input-group input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group label {
+    flex-basis: 120px; /* Largura fixa para os rótulos */
+}
+
+.infos {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #E1E1E1;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.infos.editando {
+    background-color: #c4baba; /* Cor de fundo quando está editando */
+}
+
+.edit {
+    width: 800px;
+    margin: 5% auto 30px;
+    text-align: center;
+}
+
+.editButton{
+    background-color: #FFFFFF;
+    color: black;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+}
+
+#editarButton.salvar {
+    background-color: var(--corPrincipal); /* Cor de fundo quando o botão está no estado "Salvar" */
+}
+
+#editarButton.salvar:hover {
+    background-color: #ce8e56; /* Cor de fundo ao passar o mouse no estado "Salvar" */
+}
+
+
+.carrossel {
+    width: 800px;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 5% auto 30px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens img {
+    width: 200px;
+    height: 350px;
+}
