@@ -146,3 +146,22 @@ Reunião no Discord às 20:00 da Terça-feira dia 23/04/2024
     - **Pedro:** Modelagem/Coding das API's;
     - **João:** React & Figma
 
+    
+
+## Sprint 6 (15/07/2024 - 22/07/2024)
+
+### Descrição
+
+Acabamos de receber o feedback da professora após a release 1, que está longe da visão original para as funcionalidades no projeto. Nosso foco durante a sprint 6 será preparar para adequar as sugestões da prof. Carla e finalizar, ao menos, aprendizado e implementação da front end em react. 
+
+### Tarefas
+
+- **Ryan & Renan:** Expandir documentação; Implementar front-end
+- **Pedro:** Modelagem/Coding das API's;
+- - **João:** React & Figma.
+
+### Finalização
+
+- A sprint teve como principal foco as criticas feitas durante a apresentação da release I.
+  - A fim de aumentar a performance e feedback dos membros, foi acordado em expandir a quantidade de reuniões ao longo das semanas. Reuniões ao longo das semanas serão também documentadas aqui. 
+
