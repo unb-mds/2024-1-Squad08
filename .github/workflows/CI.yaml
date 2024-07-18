@@ -8,6 +8,7 @@ jobs:
     - uses: action/checkout@v4
       with:
         ref: react-testing
+    - uses: actions/checkout@v4
     - name: use Node.JS
       uses: actions/setup-node@v2
       with:
