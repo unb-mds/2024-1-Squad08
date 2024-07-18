@@ -36,7 +36,7 @@ function home() {
       </a>
     </div>
     <div className="imagem">
-      <img src="images\image.png" alt="" style={{ marginTop: 30 }} />
+      <img src= "images/home.png" alt="" style={{ marginTop: 30 }} />
       <div className="search">
         <input
           type="text"

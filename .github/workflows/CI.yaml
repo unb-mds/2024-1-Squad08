@@ -5,7 +5,9 @@ jobs:
   continous-integration:
     runs-on: ubuntu-latest
   steps:
-    - uses: action/checkout@v3
+    - uses: action/checkout@v4
+      with:
+        ref: react-testing
     - name: use Node.JS
       uses: actions/setup-node@v2
       with:
