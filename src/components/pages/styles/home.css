@@ -49,6 +49,9 @@
   }
   
   .imagem {
+    display: flex;
+    height: 100%;
+    width: 100%;
     position: relative;
     margin-top: 0px;
     padding: 0;
@@ -57,7 +60,8 @@
   
   .imagem img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin: 0 auto;
   }
   
   .imagem .search {
