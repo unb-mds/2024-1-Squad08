@@ -19,7 +19,7 @@ Essa branch tem como objetivo criar o react app para rodar a aplicação.
 - MySQL para o banco de dados
 - React e Express como frameworks
 - Beautiful Soup e Selenium para web scrapping
-=======
+
 
 ## Quadro virtual dos Stories, Backlog e Arquitetura base
 
