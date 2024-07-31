@@ -13,7 +13,17 @@ Essa branch tem como objetivo criar o react app para rodar a aplicação.
 
 ### Domínios
 - react-router-dom,
+- Javascript/NodeJS como base
+- Figma para design do front-end
+- Miro para planejamento das sprints
+- MySQL para o banco de dados
+- React e Express como frameworks
+- Beautiful Soup e Selenium para web scrapping
+=======
 
+## Quadro virtual dos Stories, Backlog e Arquitetura base
+
+- Para acessar o quadro virtual, clique [aqui](https://miro.com/app/board/uXjVKWk1Q-I=/).
 
 ## Membros
 
