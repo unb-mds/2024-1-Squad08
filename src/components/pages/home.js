@@ -153,59 +153,19 @@ class home extends React.Component {
                 Casas
               </label>
               <div className="ContainerRepublicas" style={{ display: "flex" }}>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image1.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image2.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image3.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image4.jpg" alt="" />
-                  </a>
-                </div>
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
               </div>
               <div
                 className="ContainerRepublicas"
                 style={{ display: "flex", marginTop: 30 }}
               >
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image1.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image2.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image3.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image4.jpg" alt="" />
-                  </a>
-                </div>
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
               </div>
             </div>
           </div>
@@ -215,59 +175,19 @@ class home extends React.Component {
                 Apartamentos
               </label>
               <div className="ContainerRepublicas" style={{ display: "flex" }}>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image1.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image2.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image3.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image4.jpg" alt="" />
-                  </a>
-                </div>
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
               </div>
               <div
                 className="ContainerRepublicas"
                 style={{ display: "flex", marginTop: 30 }}
               >
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image1.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image2.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image3.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="images">
-                  <p className="republicName">Nome da República</p>
-                  <a href="Republica.html">
-                    <img className="repsImages" src="images/image4.jpg" alt="" />
-                  </a>
-                </div>
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
+                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder" />
               </div>
             </div>
           </div>
@@ -275,4 +195,5 @@ class home extends React.Component {
     )
   }
 }
-    export default home;
+    
+export default home;
