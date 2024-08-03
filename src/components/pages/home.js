@@ -2,6 +2,29 @@ import React from "react";
 import homeImage from './images/home.png';
 import './styles/home.css'
 
+class PersonLogo extends React.Component { 
+  render() { 
+    return (
+      <div>
+        <a href="perfil" className="logo">
+          <svg viewBox="0 0 74 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M12.3547 64.5648C4.77272 57.7927 0 47.944 0 36.9811C0 16.557 16.5655 0 37 0C57.4345
+              0 74 16.557 74 36.9811C74 47.944 69.2273 57.7927 61.6453 64.5648C57.2584 59.1114 51.768
+              55.1013 45.6431 53.1339C51.7293 50.1064 55.9111 43.8264 55.9111 36.5702C55.9111 26.3582
+              47.6284 18.0797 37.4111 18.0797C27.1938 18.0797 18.9111 26.3582 18.9111 36.5702C18.9111
+              43.7019 22.9506 49.8905 28.8674 52.9751C22.5371 54.8802 16.8631 58.9604 12.3547 64.5648Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </div>
+    )
+  }
+}
+
 class home extends React.Component {
   constructor(props){ 
     super(props)
@@ -29,16 +52,7 @@ class home extends React.Component {
               <a className="DivLinks" href="#Apartamentos">
                 Apartamentos
               </a>
-              <a href="perfil.html" className="logo">
-                <svg viewBox="0 0 74 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M12.3547 64.5648C4.77272 57.7927 0 47.944 0 36.9811C0 16.557 16.5655 0 37 0C57.4345 0 74 16.557 74 36.9811C74 47.944 69.2273 57.7927 61.6453 64.5648C57.2584 59.1114 51.768 55.1013 45.6431 53.1339C51.7293 50.1064 55.9111 43.8264 55.9111 36.5702C55.9111 26.3582 47.6284 18.0797 37.4111 18.0797C27.1938 18.0797 18.9111 26.3582 18.9111 36.5702C18.9111 43.7019 22.9506 49.8905 28.8674 52.9751C22.5371 54.8802 16.8631 58.9604 12.3547 64.5648Z"
-                    fill="white"
-                  />
-                </svg>
-              </a>
+              <PersonLogo />
             </div>
             <div className="imagem">
               <img src={homeImage} alt="" style={{ marginTop: 30 }} />
