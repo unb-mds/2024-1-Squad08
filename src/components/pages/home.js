@@ -2,6 +2,21 @@ import React from "react";
 import homeImage from './images/home.png';
 import './styles/home.css'
 
+class NavbarLink extends React.Component { 
+  constructor(props) { 
+    super(props)
+  }
+  render() { 
+    return (
+      <div>
+        <a className="DivLinks" href={this.props.reference}>
+          {this.props.text}
+        </a>
+      </div>
+    )
+  }
+}
+
 class PersonLogo extends React.Component { 
   render() { 
     return (
@@ -65,18 +80,10 @@ class home extends React.Component {
           <div className="full-screen">
             <div className="loginref">
               <h1 className="titulo">UniRep</h1>
-              <a className="DivLinks" href="#Populares">
-                Repúblicas Populares
-              </a>
-              <a className="DivLinks" href="#Praias">
-                Praias
-              </a>
-              <a className="DivLinks" href="#Casas">
-                Casas
-              </a>
-              <a className="DivLinks" href="#Apartamentos">
-                Apartamentos
-              </a>
+              <NavbarLink reference="#Populares" text="Republicas Populares"/>
+              <NavbarLink reference="#Praias" text="Praias" />
+              <NavbarLink reference="#Casas" text="Casas" />
+              <NavbarLink reference="#Apartamentos" text="Apartamentos"/>
               <PersonLogo />
             </div>
             <Search/>
