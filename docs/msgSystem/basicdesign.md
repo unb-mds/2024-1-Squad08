@@ -70,12 +70,13 @@
 ### Constraints 3 & 4: User knowledge
     1. Reasoning
         This is a must. The user would find great benefits to knowing when and who received his message, as 
-        well as who the hell is sending him messages, specially considering this is for a renting site.
+        well as who the hell is sending him messages, specially considering this system is currently being designed for a renting site.
     
     2. Basic Design
         This should be as simple as setting the ownership of conversations and attributes for the entities. One
         of the most annoying things of any kind of system is when a non-critical information is being stored,
-        is relevant to the user and the setup refuses to display it without some kind of roundabout esoteric route.  
+        is relevant to the user and the setup refuses to display it without some kind of roundabout esoteric route and configuration.
+        Whenever a user sends a message, the system must know the receiver, time, owner and content. This theoretically should allow for even a binary to be sent without major stress, as js already sends   
 
 
 
