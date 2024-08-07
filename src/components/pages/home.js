@@ -21,7 +21,7 @@ class PersonLogo extends React.Component {
   render() { 
     return (
       <div>
-        <a href="perfil" className="logo">
+        <a href="/perfil" className="logo">
           <svg viewBox="0 0 74 65" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               fillRule="evenodd"
@@ -44,7 +44,7 @@ class Search extends React.Component {
   render() { 
     return (
       <div className="imagem">
-        <img src={homeImage} alt="" style={{ marginTop: 30 }} />
+        <img src={homeImage} alt="" style={{position: "absolute", top:"50%",left:"50%", transform:"translate(-50%,-50%)"}} />
           <div className="search">
             <input
               type="text"
@@ -74,7 +74,7 @@ class RepublicImage extends React.Component {
     return(
       <div className="images">
         <p className="republicName">{ this.props.text}</p>
-        <a href="Republica.html">
+        <a href="">
           <img className="repsImages" src={this.props.imageSrc} alt={this.props.imgAlt} />
         </a>
       </div>
@@ -101,6 +101,8 @@ class home extends React.Component {
               <NavbarLink reference="#Casas" text="Casas" />
               <NavbarLink reference="#Apartamentos" text="Apartamentos"/>
               <PersonLogo />
+
+
             </div>
             <Search/>
             <div className="choice"></div>

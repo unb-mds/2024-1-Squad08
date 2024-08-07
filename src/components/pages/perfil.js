@@ -16,7 +16,7 @@ function perfil() {
             <link rel="stylesheet" href="styles\perfil.css" />
             <div className="col colunaCima">
                 <h1 className="titulo">UniRep</h1>
-                <a href="home.html" className="logo">
+                <a href="/" className="logo">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
