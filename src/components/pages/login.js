@@ -50,7 +50,7 @@ const HomeLogo = () => {
   )
 }
 
-class LoginAlts extends react.Component { 
+class LoginAlts extends React.Component { 
   constructor(props) { 
     super(props)
   }
