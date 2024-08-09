@@ -6,7 +6,7 @@ class PlaceholderLogo extends React.Component {
     render() { 
         return (
             <div>
-                <a href="home.html" className="logo">
+                <a href="/" className="logo">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"

@@ -21,7 +21,6 @@ function App() {
           <Route path='/republica' element={<Republica />} />
         </Routes>
       </Router>
-        
     </div>
   );
 }
