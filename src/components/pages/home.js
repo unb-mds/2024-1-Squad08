@@ -74,7 +74,7 @@ class RepublicImage extends React.Component {
     return(
       <div className="images">
         <p className="republicName">{ this.props.text}</p>
-        <a href="Republica.html">
+        <a href="Republica">
           <img className="repsImages" src={this.props.imageSrc} alt={this.props.imgAlt} />
         </a>
       </div>
@@ -109,7 +109,7 @@ class home extends React.Component {
             <div className="FamousReps">
               <label htmlFor="">Repúblicas Populares</label>
               <div className="ContainerRepublicas" style={{ display: "flex" }}>
-                <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder"/>
+                <RepublicImage text="Nome da República" imageSrc="https://cloudfront-us-east-1.images.arcpublishing.com/eluniversal/MWZOUNQNXFH2TEH5J5EXOLQRKA.jpg" imgAlt="placeholder"/>
                 <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder"/>
                 <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder"/>
                 <RepublicImage text="Nome da República" imageSrc="images/image1.jpg" imgAlt="placeholder"/>
