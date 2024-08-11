@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/perfil.css'
+//import './styles/perfil.css'
 
 class PlaceholderLogo extends React.Component {
     //stateless component, simply displays this Logo

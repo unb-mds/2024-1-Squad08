@@ -1,6 +1,6 @@
 import React from "react";
 import homeImage from './images/home.png';
-import './styles/home.css'
+//import './styles/home.css'
 
 class NavbarLink extends React.Component { 
   constructor(props) { 
