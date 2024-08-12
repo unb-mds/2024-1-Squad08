@@ -26,7 +26,7 @@ import './styles/login.css'
 
 const HomeLogo = () => {
   return (
-    <a href="home" className="back">
+    <a href="/" className="back">
         <svg
           fill="#000000"
           version="1.1"
@@ -200,7 +200,7 @@ class login extends React.Component {
               >
                 Primeira vez acessando?
               </label>
-              <a href="/newuser" style={{ marginRight: 10 }}>
+              <a href="/cadastro" style={{ marginRight: 10 }}>
                 <button className="cadastre">
                   Cadastrar
                   <div className="arrow-wrapper">
