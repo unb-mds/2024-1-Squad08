@@ -1,45 +1,6 @@
 import React from "react";
 import './styles/perfil.css'
 
-<<<<<<< HEAD
-function perfil() {
-    return(<div>
-            <>
-            <meta charSet="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Perfil do Usuário</title>
-            <link
-                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-                rel="stylesheet"
-                integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-                crossOrigin="anonymous"
-            />
-            <link rel="stylesheet" href="styles\perfil.css" />
-            <div className="col colunaCima">
-                <h1 className="titulo">UniRep</h1>
-                <a href="/" className="logo">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    viewBox="0,0,256,256"
-                >
-                    <g
-                    fill="#ffc98a"
-                    fillRule="nonzero"
-                    stroke="none"
-                    strokeWidth={1}
-                    strokeLinecap="butt"
-                    strokeLinejoin="miter"
-                    strokeMiterlimit={10}
-                    strokeDasharray=""
-                    strokeDashoffset={0}
-                    fontFamily="none"
-                    fontWeight="none"
-                    fontSize="none"
-                    textAnchor="none"
-                    style={{ mixBlendMode: "normal" }}
-=======
 class PlaceholderLogo extends React.Component {
     //stateless component, simply displays this Logo
     render() { 
@@ -51,7 +12,6 @@ class PlaceholderLogo extends React.Component {
                         x="0px"
                         y="0px"
                         viewBox="0,0,256,256"
->>>>>>> 39ea5010d38627da6c3e1f3158f1d362d943b8a8
                     >
                         <g
                             fill="#ffc98a"
