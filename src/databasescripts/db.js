@@ -12,15 +12,14 @@
     Second: for security reasons, alter these functions if using for production. 
     Don't want any bad actors meddling with your data, yeah?
 */
-var mysql = require("mysql");
+const Pool = require("mysql").createPool;
 
-var connection = mysql.createConnection({
+var connection = new Pool({
+    port: 3306,
+    database: "unirepdb_basic",
     host: "localhost",
     user: "appdbfunctions",
     password: "unirep"
-})
+});
 
-connection.connect(function (err) { 
-    if (err) throw err;
-    console.log("Connected!");
-})
+module.exports = connection;

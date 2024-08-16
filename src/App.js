@@ -13,12 +13,13 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='*' element={<NotFound />} />
+          <Route path='*' element={<NotFound />} /> { /*equivalente a -> app.get()*/}
           <Route path='/' element={<Home/>} />
           <Route path='/cadastro' element={<Cadastro/>} />
           <Route path='/login' element={<Login />} />
           <Route path='/perfil' element={<Perfil />} />
           <Route path='/republica' element={<Republica />} />
+          { /*<Route path='/republica/*' element={<Republica id="checkurl"/>}>*/}
         </Routes>
       </Router>
     </div>

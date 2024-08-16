@@ -46,7 +46,7 @@ const Header = () => {
 class republica extends React.Component {
     constructor(props) { 
         super(props);
-        this.majorMalfunction = gatherRepublicInfo(props.id) //this will return an undefined. Very funny. FIXME.
+        this.majorMalfunction = getRepublicInfo(props.id) //this will return an undefined. Very funny. FIXME.
         this.images = this.majorMalfunction.images
         this.name = "very funny" //TODO
         this.value = "IF YOU SEE THIS, THE DB AIN'T SENDING SHIT" //TODO
