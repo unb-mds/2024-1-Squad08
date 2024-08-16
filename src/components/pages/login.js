@@ -1,18 +1,32 @@
+/*
+this is the in-file documentation of wtf is going on in our login bizarre adventure.
+
+Zero'st, the main thingy here which actually matters is the bloody login. 
+Most other stuff is random ass svgs and components. As a minor guide to understand this 
+BETA ROMEO FOXTROT, follow along login and the rest should come up fine and dandy. 
+
+First, original had FOXTROTGEORGE svgs all around the stuff, which was simply unbearable to read.
+moved that to constants or classes.
+
+Second, this is almost good to put on some kind of overlay in any other page. 
+would be if it FOXTROTGEORGE displayed alright. Guess what? IT SURE AS HELL AS OF 
+THE TIME OF WRITING THIS COMMENT AIN'T. 
+  Which means the css is prolly operating with a twig and a piece of gum for design and execution. 
+  Not to blame whoever of the other guys wrote it, i could FOXTROT INDIA UNIFORM much worse.
+  And css in general is a mess of reading documentation and test and trial over and over and over
+  until you're with a functional visual design, ptsd or FOXTROT both!
+  Very retarded, but, guess what? AIN'T MY BETA JOB, at least for now (05/08/24), might be me next 
+  trying to make a FOXTROT div center or something.
+
+signed by locvst, terrible programmer. Will sign it again later when i finish fixing this.
+*/
+
 import React from "react";
 import './styles/login.css'
 
-function login() {
-    return(<div>
-
-<>
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login</title>
-  <link rel="shortcut icon" type="imagex/png" href="images\casa.png" />
-  <link rel="stylesheet" href="styles\login.css" />
-  <div className="Esquerdo">
-    <div className="content">
-      <a href="home.html" className="back">
+const HomeLogo = () => {
+  return (
+    <a href="/" className="back">
         <svg
           fill="#000000"
           version="1.1"
@@ -26,65 +40,22 @@ function login() {
         >
           <g>
             <g>
-              <path d="M292.866,254.432c-2.288,0-4.443-1.285-5.5-3.399c-0.354-0.684-28.541-52.949-146.169-54.727v51.977 c0,2.342-1.333,4.48-3.432,5.513c-2.096,1.033-4.594,0.793-6.461-0.63L2.417,154.392C0.898,153.227,0,151.425,0,149.516 c0-1.919,0.898-3.72,2.417-4.888l128.893-98.77c1.87-1.426,4.365-1.667,6.461-0.639c2.099,1.026,3.432,3.173,3.432,5.509v54.776 c3.111-0.198,7.164-0.37,11.947-0.37c43.861,0,145.871,13.952,145.871,143.136c0,2.858-1.964,5.344-4.75,5.993 C293.802,254.384,293.34,254.432,292.866,254.432z" />
+            <path d="M292.866,254.432c-2.288,0-4.443-1.285-5.5-3.399c-0.354-0.684-28.541-52.949-146.169-54.727v51.977
+               c0,2.342-1.333,4.48-3.432,5.513c-2.096,1.033-4.594,0.793-6.461-0.63L2.417,154.392C0.898,153.227,0,151.425,0,149.516 c0-1.919,0.898-3.72,2.417-4.888l128.893-98.77c1.87-1.426,4.365-1.667,6.461-0.639c2.099,1.026,3.432,3.173,3.432,5.509v54.776 c3.111-0.198,7.164-0.37,11.947-0.37c43.861,0,145.871,13.952,145.871,143.136c0,2.858-1.964,5.344-4.75,5.993
+                C293.802,254.384,293.34,254.432,292.866,254.432z" />
             </g>
           </g>
         </svg>
-      </a>
-      <h1 className="titulo">UniRep</h1>
-      <h2 className="subtitle"> Repúblicas Universitárias </h2>
-      <div className="login-box">
-        <h2 className="loginText">Login</h2>
-        <form action="#" method="POST">
-          <div className="input-group inputs">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required=""
-              placeholder="E-mail ou CPF"
-            />
-          </div>
-          <div className="input-group inputs">
-            <input
-              type="password"
-              placeholder="Senha"
-              id="password"
-              name="password"
-              required=""
-            />
-          </div>
-          <div className="input-group checkbox-wrapper-2">
-            <input
-              type="checkbox"
-              id="showPassword"
-              className="checkmark sc-gJwTLC ikxBAC"
-            />
-            <label
-              htmlFor="show-password"
-              style={{ verticalAlign: "top", color: "#555353" }}
-            >
-              Mostrar Senha
-            </label>
-          </div>
-          <div className="button-container">
-            <a href="home.html" style={{ textDecoration: "none" }}>
-              <button className="entrar">
-                Entrar
-                <div className="arrow-wrapper">
-                  <div className="arrow" />
-                </div>
-              </button>
-            </a>
-          </div>
-        </form>
-      </div>
-      <div className="forget">
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-          {" "}
-          Esqueceu a senha?{" "}
-        </a>
-      </div>
+    </a>
+  )
+}
+
+class LoginAlts extends React.Component { 
+  constructor(props) { 
+    super(props)
+  }
+  render() { 
+    return (
       <div className="login-with">
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
           <div className="button-log">
@@ -117,7 +88,9 @@ function login() {
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <path d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"></path>
+              <path d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029
+                c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77
+                  L40.43,21.739z"></path>
             </svg>
           </div>
         </a>
@@ -139,34 +112,108 @@ function login() {
           </div>
         </a>
       </div>
-      <div className="finalBox button-container">
-        <label
-          htmlFor=""
-          style={{
-            display: "flex",
-            alignItems: "center",
-            flex: 1,
-            marginLeft: 30,
-            color: "#555353"
-          }}
-        >
-          Primeira vez acessando?
-        </label>
-        <a href="/newuser" style={{ marginRight: 10 }}>
-          <button className="cadastre">
-            Cadastrar
-            <div className="arrow-wrapper">
-              <div className="arrow" />
-            </div>
-          </button>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div className="direito">
-    <div className="box"></div>
-  </div>
-</>
+    )
+  }
+}
 
-    </div>)
+class login extends React.Component {
+  constructor(props) { 
+    super(props)
+  }
+  render(){
+    return (
+      <div>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="shortcut icon" type="imagex/png" href="images\casa.png" />
+        <link rel="stylesheet" href="styles\login.css" />
+        <div className="Esquerdo">
+          <div className="content">
+            <HomeLogo />
+            <h1 className="titulo">UniRep</h1>
+            <h2 className="subtitle"> Repúblicas Universitárias </h2>
+            <div className="login-box">
+              <h2 className="loginText">Login</h2>
+              <form action="#" method="POST">
+                <div className="input-group inputs">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required=""
+                    placeholder="E-mail ou CPF"
+                  />
+                </div>
+                <div className="input-group inputs">
+                  <input
+                    type="password"
+                    placeholder="Senha"
+                    id="password"
+                    name="password"
+                    required=""
+                  />
+                </div>
+                <div className="input-group checkbox-wrapper-2">
+                  <input
+                    type="checkbox"
+                    id="showPassword"
+                    className="checkmark sc-gJwTLC ikxBAC"
+                  />
+                  <label
+                    htmlFor="show-password"
+                    style={{ verticalAlign: "top", color: "#555353" }}
+                  >
+                    Mostrar Senha
+                  </label>
+                </div>
+                <div className="button-container">
+                  <a href="home.html" style={{ textDecoration: "none" }}>
+                    <button className="entrar">
+                      Entrar
+                      <div className="arrow-wrapper">
+                        <div className="arrow" />
+                      </div>
+                    </button>
+                  </a>
+                </div>
+              </form>
+            </div>
+            <div className="forget">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                {" "}
+                Esqueceu a senha?{" "}
+              </a>
+            </div>
+            <LoginAlts />
+            <div className="finalBox button-container">
+              <label
+                htmlFor=""
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  flex: 1,
+                  marginLeft: 30,
+                  color: "#555353"
+                }}
+              >
+                Primeira vez acessando?
+              </label>
+              <a href="/cadastro" style={{ marginRight: 10 }}>
+                <button className="cadastre">
+                  Cadastrar
+                  <div className="arrow-wrapper">
+                    <div className="arrow" />
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="direito">
+          <div className="box"></div>
+        </div>
+    </div>
+    )
+  }
 } export default login
