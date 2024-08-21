@@ -8,9 +8,11 @@
     Requirements for this system is as follows:
         1. The user (or client) should be able to send an id and password 
         2. The server should be able to receive and treat this information
-        3. 
+        3. The remainder of the systems should be able to know about the login
 
 ### 1. Info passed client-server 
     This should be done via POST operation, in which the user attempts to send info. 
     After sending the post and we receive it, a query must be performed so we know who
-    is trying to login
+    is trying to login.
+
+    This is mostly the first step. Things get tricky later 
