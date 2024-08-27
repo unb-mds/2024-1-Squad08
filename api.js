@@ -1,3 +1,21 @@
+//connection with the database
+const mysql = require('mysql2/promise');
+
+const db = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    password: 'password',
+    database: 'unirepdb_basic'
+});
+
+db.connect((err) => {
+    if (err) {
+        console.error('Erro ao conectar ao banco de dados:', err);
+    } else {
+        console.log('Conectado ao banco de dados MySQL');
+    }
+});
+
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -45,20 +63,28 @@ app.get('/api/v1/rooms/:id', (req, res) => {
 });
 
 // Create one room
-app.post("/api/v1/rooms", async (req, res) => {
-    try {
-        
-    } catch (error) {
-        console.log(error)
+app.post('/api/v1/rooms', async (req, res) => {
+    const { nome, cep, complemento, numero, emaildono } = req.body;
+
+    // Validação básica
+    if (!nome || !cep || !numero || !emaildono) {
+        return res.status(400).json({ message: "Preencha todos os campos obrigatórios" });
     }
-    console.log(req.body);
-    res.status(201).json({
-        status: "success",
-        data: {
-            room: "005"
-        }
-    });
+
+    try {
+        const [result] = await db.execute(
+            `INSERT INTO REPUBLICA (nome, cep, complemento, numero, emaildono) 
+             VALUES (?, ?, ?, ?, ?)`,
+            [nome, cep, complemento, numero, emaildono]
+        );
+        
+        res.status(201).json({ message: "República criada com sucesso!", idRepublica: result.insertId });
+    } catch (err) {
+        console.error("Erro ao criar república:", err);
+        res.status(500).json({ message: "Erro ao criar república" });
+    }
 });
+
 
 // Update one room
 app.put("/api/v1/rooms/:id", (req, res) => {
