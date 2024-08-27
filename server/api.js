@@ -47,17 +47,18 @@ app.get('/api/v1/rooms/:id', (req, res) => {
 // Create one room
 app.post("/api/v1/rooms", async (req, res) => {
     try {
-        
-    } catch (error) {
-        console.log(error)
-    }
-    console.log(req.body);
-    res.status(201).json({
-        status: "success",
-        data: {
+
+        console.log(req.body);
+        res.status(201).json({
+            status: "success",
+            data: {
             room: "005"
         }
     });
+    } catch (error) {
+        console.log(error)
+    }
+    
 });
 
 // Update one room
