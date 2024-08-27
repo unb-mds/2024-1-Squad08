@@ -18,3 +18,5 @@ function verifyCpf(somecpf) {
         return false
     }
 };
+
+export default verifyCpf;

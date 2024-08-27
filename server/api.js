@@ -63,6 +63,7 @@ app.get('/api/v1/rooms/:id', (req, res) => {
 });
 
 // Create one room
+<<<<<<< HEAD:api.js
 app.post('/api/v1/rooms', async (req, res) => {
     const { nome, cep, complemento, numero, emaildono } = req.body;
 
@@ -83,6 +84,22 @@ app.post('/api/v1/rooms', async (req, res) => {
         console.error("Erro ao criar república:", err);
         res.status(500).json({ message: "Erro ao criar república" });
     }
+=======
+app.post("/api/v1/rooms", async (req, res) => {
+    try {
+
+        console.log(req.body);
+        res.status(201).json({
+            status: "success",
+            data: {
+            room: "005"
+        }
+    });
+    } catch (error) {
+        console.log(error)
+    }
+    
+>>>>>>> 5c470814ba8467269c247d089103971758e6ef86:server/api.js
 });
 
 
