@@ -12,9 +12,10 @@
     Second: for security reasons, alter these functions if using for production. 
     Don't want any bad actors meddling with your data, yeah?
 */
-const Pool = require("mysql").createPool;
 
-var connection = new Pool({
+const sql = require("mysql");
+
+var connection = sql.createConnection({
     port: 3306,
     database: "unirepdb_basic",
     host: "localhost",

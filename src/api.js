@@ -1,20 +1,5 @@
 //connection with the database
-const mysql = require('mysql2/promise');
-
-const db = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'unirepdb_basic'
-});
-
-db.connect((err) => {
-    if (err) {
-        console.error('Erro ao conectar ao banco de dados:', err);
-    } else {
-        console.log('Conectado ao banco de dados MySQL');
-    }
-});
+const pool = require("./databasescripts/db");
 
 const express = require('express');
 const app = express();
@@ -63,7 +48,6 @@ app.get('/api/v1/rooms/:id', (req, res) => {
 });
 
 // Create one room
-<<<<<<< HEAD:api.js
 app.post('/api/v1/rooms', async (req, res) => {
     const { nome, cep, complemento, numero, emaildono } = req.body;
 
@@ -84,22 +68,6 @@ app.post('/api/v1/rooms', async (req, res) => {
         console.error("Erro ao criar república:", err);
         res.status(500).json({ message: "Erro ao criar república" });
     }
-=======
-app.post("/api/v1/rooms", async (req, res) => {
-    try {
-
-        console.log(req.body);
-        res.status(201).json({
-            status: "success",
-            data: {
-            room: "005"
-        }
-    });
-    } catch (error) {
-        console.log(error)
-    }
-    
->>>>>>> 5c470814ba8467269c247d089103971758e6ef86:server/api.js
 });
 
 
