@@ -45,24 +45,25 @@ were held during the aforementioned following period.
 > **15/08/24 :** One of the lead React Engineers decided to left the project. This was the final nail in the coffin.
 
 ## Root Cause
-    A crisp lack of urgency, organization, workforce, communication and know-how made this project go six foot under. We will ask why these areas were lacking in order to try to pinpoint a root cause using the 5 why's system.
-        **1. Why was there no urgency?** - The schedules were constantly changing, which made it hard to predict when 
-            exactly the squad was supposed to lock in or relax. 
-            
-        **2. Why was there no organization?** - When the strike raged on for two months, enough time passed without work most members 
-        lost edge on the technology and had to spend time relearning in order to implement, which led to frustration and the eventual loss of 
-        another member due to sluggish progress and no hope of successfully delivering the product.
-        
-        **3. Why was there no workforce?** - Already one of the smaller squads, the loss of the first engineer forced others to learn HTML and CSS
-        from scratch, which proved to be a single point of failure.
-        
-        **4. Why less communication ensued?** - Initially during the strike, no actual communication was needed. When the strike ended, ensuing communication was met with dificulty.
-        
-        **5. Why was there no know-how knowledge?** - The squad was already formed with no true veterans in any of the technologies which would be used, meaning
-        most of the learning would need to be built from scratch. This also concerns taking full advantage of the Agile Methodologies taught during lectures. The members
-        had most of its academic experience up to this point in solo projects and tests in the realm of software.
-        
-    We may conclude the root cause of this death was an extended period of no work on the project, leading to a "rusting" of sorts. The strike was one of the major contributors to this condition, which lead to the halting of the work for the said extended period of time. 
+A crisp lack of urgency, organization, workforce, communication and know-how made this project go six foot under. We will ask why these areas were lacking in order to try to pinpoint a root cause using the 5 why's system.
+
+**1. Why was there no urgency?** - The schedules were constantly changing, which made it hard to predict when 
+    exactly the squad was supposed to lock in or relax. 
+    
+**2. Why was there no organization?** - When the strike raged on for two months, enough time passed without work most members 
+lost edge on the technology and had to spend time relearning in order to implement, which led to frustration and the eventual loss of 
+another member due to sluggish progress and no hope of successfully delivering the product.
+
+**3. Why was there no workforce?** - Already one of the smaller squads, the loss of the first engineer forced others to learn HTML and CSS
+from scratch, which proved to be a single point of failure.
+
+**4. Why less communication ensued?** - Initially during the strike, no actual communication was needed. When the strike ended, ensuing communication was met with dificulty.
+
+**5. Why was there no know-how knowledge?** - The squad was already formed with no true veterans in any of the technologies which would be used, meaning
+most of the learning would need to be built from scratch. This also concerns taking full advantage of the Agile Methodologies taught during lectures. The members
+had most of its academic experience up to this point in solo projects and tests in the realm of software.
+
+We may conclude the root cause of this death was an extended period of no work on the project, leading to a "rusting" of sorts. The strike was one of the major contributors to this condition, which lead to the halting of the work for the said extended period of time. 
 
 ## Resolution and recovery
 
@@ -71,11 +72,11 @@ The project may be finished after forking, but the current repo should remain as
 
 ## Corrective and Preventative Measures
 In the future, the remainders of the squad 8 analyses the following preventive measures:
-    1. There should be no sprint skipping whatsoever. This messes up the flow of the project and catching up is much harder 
-    in practice than in theory.
-    2. Communication should be, as XP ensures its much better, in person. Working with other people is much easier in a physical environment 
-    rather than a virtual one. And, above all, communication must be ensured; guaranteed.
-    3. Seeking help as soon as a roadblock is found will be exponentially faster than fixing it alone. The team should work together to share
-    knowledge. This could avoid alienation and/or isolation of the workers.
+**1. There should be no sprint skipping whatsoever.** This messes up the flow of the project and catching up is much harder 
+in practice than in theory.
+**2. Communication should be, as XP ensures its much better, in person.** Working with other people is much easier in a physical environment 
+rather than a virtual one. And, above all, **proper communication must be ensured;** guaranteed.
+**3. Seeking help as soon as a roadblock is found** will be exponentially faster than fixing it alone. The team should work together to share
+knowledge. This could avoid alienation and/or isolation of the workers.
 
 As corrective measures would involve finishing up the work started, they will not be cited.
