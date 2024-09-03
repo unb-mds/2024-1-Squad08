@@ -26,9 +26,9 @@ decision to work only when the strike ended would prove to be a terrible idea.
 > 
 > **26/04/24 :** The frontend's first version was finished. While still mostly crude, it was a good beginning and we had theoretically had time to finish it.
 > 
-> **07/04/24 :** It came to the squad's knowledge that no further presentations would take place until the strike came to an end. Mostly no changes to the base project was done during this period.
+> **07/05/24 :** It came to the squad's knowledge that no further presentations would take place until the strike came to an end. Mostly no changes to the base project was done during this period.
 > 
-> **17/04/24 :** The lead frontend engineer left the project. With no one else fully capable of working with html and able to understand the designs, this was the first nail in the coffin. As most other
+> **17/05/24 :** The lead frontend engineer left the project. With no one else fully capable of working with html and able to understand the designs, this was the first nail in the coffin. As most other
 disciplines were launching their final projects and tests during the following period, the remainder of the members felt more urgency to focus on the active disciplines. With rare exceptions, no meetings
 were held during the aforementioned following period.
 > 
