@@ -1,4 +1,4 @@
-# Squad8 Postmortem: a brief analisys on failure 
+# Squad8 Postmortem: a brief analisys on failure and theories on how to avoid failing twice this same way.
 
 ## Issue Summary
     The Squad 8 failed to deliver a satisfactory product.
@@ -40,7 +40,7 @@ were held during the aforementioned following period.
         **5. Why was there no know-how knowledge?** - The squad was already formed with no true veterans in any of the technologies which would be used, meaning
         most of the learning would need to be built from scratch. This also concerns taking full advantage of the Agile Methodologies taught during lectures. The members
         had most of its academic experience up to this point in solo projects and tests in the realm of software.
-    We may conclude the root cause of this death was an extended period of no work on the project, leading to a "rusting" of sorts.
+    We may conclude the root cause of this death was an extended period of no work on the project, leading to a "rusting" of sorts. The strike was one of the major contributors to this condition.
 
 ## Resolution and recovery
     No resolution nor recovery was achieved. The project remain unfinished as of the writing of this document and will remain so indefinitely.
