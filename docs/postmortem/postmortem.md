@@ -34,11 +34,18 @@ were held during the aforementioned following period.
 > 
 > **01/07/24 :** After the strike was finally over, the database scripts were concluded, but the squad mostly had no idea on how to use or connect the database, along with mostly no idea on how to construct the api, which relied on the database for its operations. This would put another nail in the coffin.
 > 
-> **15/07/24 :** The squad decided to meet three times in a week to compensate for the lost time in the strike void. Though it initially worked as intended, forcing the engineers to interact and show precisely what was being done and what was not, the plan ultimately folded on itself. The engineers were unable to keep up with the meetings nor the required development pace to fix the product in time for delivery.
+> **15/07/24 :** The squad decided to meet three times in a week to compensate for the lost time in the strike void. Though it initially worked as intended, forcing the engineers to interact and show precisely what was being done and what was not, the plan ultimately folded on itself. The engineers were unable to keep up with the meetings nor the required development pace to fix the product in time for delivery. Besides implementation of the react framework for the front end, until the deadline, no major changes were made to the main project. It completely stalled.
 >
+> **31/07/24 :** The merging of the react branch into the main was the last major change done to the project.
+>
+> **02/08/24 :** A somewhat functioning of CI was finally placed into main. At the same time, half of the team felt left out of the work and alienated from the project.
+>
+> **09/08/24 :** After asking for help with our mentor, an effort was put in motion to reintegrate this half again into the project. Though this proved to be much too late, as the integrated half was already burned out.
+>
+> **15/08/24 :** One of the lead React Engineers decided to left the project. This was the final nail in the coffin.
 
 ## Root Cause
-    A crisp lack of urgency, organization, workforce, communication and know-how made this project go six foot under. We will ask why these areas were lacking in order to try to pinpoint a root cause.
+    A crisp lack of urgency, organization, workforce, communication and know-how made this project go six foot under. We will ask why these areas were lacking in order to try to pinpoint a root cause using the 5 why's system.
         **1. Why was there no urgency?** - The schedules were constantly changing, which made it hard to predict when 
             exactly the squad was supposed to lock in or relax. 
             
@@ -55,14 +62,20 @@ were held during the aforementioned following period.
         most of the learning would need to be built from scratch. This also concerns taking full advantage of the Agile Methodologies taught during lectures. The members
         had most of its academic experience up to this point in solo projects and tests in the realm of software.
         
-    We may conclude the root cause of this death was an extended period of no work on the project, leading to a "rusting" of sorts. The strike was one of the major contributors to this condition.
+    We may conclude the root cause of this death was an extended period of no work on the project, leading to a "rusting" of sorts. The strike was one of the major contributors to this condition, which lead to the halting of the work for the said extended period of time. 
 
 ## Resolution and recovery
-    No resolution nor recovery was achieved. The project remain unfinished as of the writing of this document and will remain so indefinitely.
+
+No resolution nor recovery was achieved. The project remain unfinished as of the writing of this document and will remain so indefinitely.
+The project may be finished after forking, but the current repo should remain as is to document this initial failure.
 
 ## Corrective and Preventative Measures
-    In the future, the remainders of the squad 8 analyses the following preventive measures:
-        1. There should be no sprint skipping whatsoever. This messes up the flow of the project and catching up is much harder 
-        in practice than in theory.
-        2. Communication should be, as XP ensures its much better, in person. Working with other people is much easier in a physical environment 
-        rather than a virtual one.
+In the future, the remainders of the squad 8 analyses the following preventive measures:
+    1. There should be no sprint skipping whatsoever. This messes up the flow of the project and catching up is much harder 
+    in practice than in theory.
+    2. Communication should be, as XP ensures its much better, in person. Working with other people is much easier in a physical environment 
+    rather than a virtual one. And, above all, communication must be ensured; guaranteed.
+    3. Seeking help as soon as a roadblock is found will be exponentially faster than fixing it alone. The team should work together to share
+    knowledge. This could avoid alienation and/or isolation of the workers.
+
+As corrective measures would involve finishing up the work started, they will not be cited.
