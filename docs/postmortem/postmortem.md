@@ -1,4 +1,4 @@
-# Squad8 Postmortem: a brief analisys on failure and theories on how to avoid failing twice this same way.
+# Squad8 Postmortem: a brief analysis on failure and theories on how to avoid failing twice this same way.
 
 ## Issue Summary
 The Squad 8 failed to deliver a satisfactory product.
