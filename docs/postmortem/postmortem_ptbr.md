@@ -37,9 +37,9 @@ webscrapper. Também dividimos as pilhas e tarefas entre os membros, primeiro fo
 >
 > **02/08/24 :** Um pouco de funcionamento do CI foi finalmente colocado no principal. Ao mesmo tempo, metade da equipe se sentiu excluída do trabalho e alienada do projeto.
 >
-> **09/08/24 :** Depois de pedir ajuda a nossa mentora, um esforço foi colocado em movimento para reintegrar essa metade novamente ao projeto. Embora isso tenha se mostrado tarde demais, pois a metade integrada já estava esgotada.
+> **09/08/24 :** Depois de pedir ajuda a nossa mentora, um esforço foi colocado em movimento para reintegrar essa metade da equipe novamente ao projeto. Embora isso tenha se mostrado tarde demais, pois a metade integrada já estava esgotada.
 >
-> **15/08/24 :** Um dos principais engenheiros do React decidiu deixar o projeto. Este foi o último prego no caixão.
+> **15/08/24 :** Um dos principais engenheiros de React decidiu deixar o projeto. Este foi o último prego no caixão.
 
 ## Causa raiz
 Uma nítida falta de urgência, organização, força de trabalho, comunicação e conhecimento de know-how fez com que este projeto fosse enterrado. Utilizaremos o sistema "5 Why's" para identificar a causa raiz.
@@ -47,11 +47,11 @@ Uma nítida falta de urgência, organização, força de trabalho, comunicação
 **1. Por que não havia urgência?** - Os cronogramas mudavam constantemente, o que tornava difícil prever quando exatamente o esquadrão deveria focar no projeto ou relaxar e focar em outras matérias. 
 
 **2. Por que não havia organização?** - Com a greve durando dois meses, passou tempo suficiente sem trabalho e prática para que a maioria dos membros
-perdesse o domínio sobre a tecnologia utilizada, forçando o esquadrão a reaprender. Isso levou à frustração e à eventual perda de
+perdesse o domínio sobre a tecnologia utilizada, forçando o esquadrão a reaprender as habilidades do início do semestre. Isso levou à frustração e à eventual perda de
 outro membro devido ao progresso lento e nenhuma esperança de entregar o produto com sucesso.
 
 **3. Por que não havia força de trabalho?** - Já sendo um dos esquadrões menores, a perda do primeiro engenheiro forçou outros a aprender HTML e CSS
-do zero, o que provou ser um ponto único de falha.
+do zero, o que provou ser um ponto único de falha. Não havia redundância de conhecimento desde o início, ou seja, qualquer perda na equipe seria um mal presságio imediato.
 
 **4. Por que houve menos comunicação?** - Inicialmente, durante a greve, nenhuma comunicação real foi necessária. Quando a greve terminou, a comunicação subsequente foi recebida com dificuldade.
 
@@ -70,9 +70,9 @@ O restante do esquadrão 8 analisa as seguintes medidas preventivas para facilit
 **1. Nenhuma sprint deve ser pulada.** Isso atrapalha o fluxo do projeto e recuperar o atraso é muito mais difícil
 na prática do que na teoria.
 **2. A comunicação deve ser, como o XP garante que é muito melhor, pessoalmente.** Trabalhar com outras pessoas é muito mais fácil em um ambiente físico
-do que em um virtual. E, acima de tudo, **a comunicação adequada deve ser garantida;** garantida.
+do que em um virtual, isso é simplesmente um fator de trabalhar com outros seres humanos. E, acima de tudo, **a comunicação adequada deve ser garantida com a maior prioridade possível.**
 **3. Buscar ajuda assim que um obstáculo for encontrado** será exponencialmente mais rápido do que consertá-lo sozinho. A equipe deve trabalhar em conjunto para compartilhar
 conhecimento. Isso pode evitar alienação e/ou isolamento dos engenheiros.
-**4. Utilizar as Issues para corretamente mapear as necessidades do projeto** evita o estranho fenômeno onde o engenheiro quer trabalhar mas não tem certeza de onde realizar o serviço. É uma poderosa ferramenta de comunicação e deve ser usada como tal. 
+**4. Utilizar as Issues para corretamente mapear as necessidades do projeto** evita o estranho fenômeno onde o engenheiro quer trabalhar mas não tem certeza de onde realizar o serviço. É uma **poderosa** ferramenta de comunicação e _deve_ ser usada como tal, o que ajuda com a medida preventiva (2).
 
-Como as medidas corretivas envolveriam terminar o trabalho iniciado, elas não serão citadas.
+Como as medidas corretivas envolveriam terminar o trabalho iniciado, elas não serão citadas por razões explicadas na sessão de _Resolução e recuperação_.
