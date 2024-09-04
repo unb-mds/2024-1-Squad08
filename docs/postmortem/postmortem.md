@@ -21,16 +21,13 @@ This would take as long as 4 months to implement somewhat properly, as there was
 > **06/04/24 :** One of the engineers tasked with developing the API learned html, which consumed precious time to learn API technologies. Even so, this would later help, as the engineer
 tasked with building the front-end would leave the project later.
 > 
-> **08/04/24 :** The university strike was announced. At this point, most of the project was still in its early baby steps, but still had possibility to be finished. Yet, the strike and the squad's
-decision to work only when the strike ended would prove to be a terrible idea.
+> **08/04/24 :** The university strike was announced. At this point, most of the project was still in its early baby steps, but still had the possibility to be finished. Yet, the strike and the squad's decision to work only when the strike ended would prove to be a terrible idea.
 > 
 > **26/04/24 :** The frontend's first version was finished. While still mostly crude, it was a good beginning and we had theoretically had time to finish it.
 > 
 > **07/05/24 :** It came to the squad's knowledge that no further presentations would take place until the strike came to an end. Mostly no changes to the base project was done during this period.
 > 
-> **17/05/24 :** The lead frontend engineer left the project. With no one else fully capable of working with html and able to understand the designs, this was the first nail in the coffin. As most other
-disciplines were launching their final projects and tests during the following period, the remainder of the members felt more urgency to focus on the active disciplines. With rare exceptions, no meetings
-were held during the aforementioned following period.
+> **17/05/24 :** The lead frontend engineer left the project. With no one else fully capable of working with html and able to understand the designs, this was the first nail in the coffin. As most other disciplines were launching their final projects and tests during the following period, the remainder of the members felt more urgency to focus on the active disciplines. With rare exceptions, no meetings were held during the aforementioned period.
 > 
 > **01/07/24 :** After the strike was finally over, the database scripts were concluded, but the squad mostly had no idea on how to use or connect the database, along with mostly no idea on how to construct the api, which relied on the database for its operations. This would put another nail in the coffin.
 > 
@@ -50,8 +47,8 @@ A crisp lack of urgency, organization, workforce, communication and know-how mad
 **1. Why was there no urgency?** - The schedules were constantly changing, which made it hard to predict when 
     exactly the squad was supposed to lock in or relax. 
     
-**2. Why was there no organization?** - When the strike raged on for two months, enough time passed without work most members 
-lost edge on the technology and had to spend time relearning in order to implement, which led to frustration and the eventual loss of 
+**2. Why was there no organization?** - When the strike raged on for two months, enough time had passed without work that most members 
+lost edge on the technology and were forced to spend time relearning in order to implement, which led to frustration and the eventual loss of 
 another member due to sluggish progress and no hope of successfully delivering the product.
 
 **3. Why was there no workforce?** - Already one of the smaller squads, the loss of the first engineer forced others to learn HTML and CSS
@@ -71,12 +68,13 @@ No resolution nor recovery was achieved. The project remain unfinished as of the
 The project may be finished after forking, but the current repo should remain as is to document this initial failure.
 
 ## Corrective and Preventative Measures
-In the future, the remainders of the squad 8 analyses the following preventive measures:
+The remainders of the squad 8 analyses the following preventive measures to allow a better future project:
 **1. There should be no sprint skipping whatsoever.** This messes up the flow of the project and catching up is much harder 
 in practice than in theory.
 **2. Communication should be, as XP ensures its much better, in person.** Working with other people is much easier in a physical environment 
 rather than a virtual one. And, above all, **proper communication must be ensured;** guaranteed.
 **3. Seeking help as soon as a roadblock is found** will be exponentially faster than fixing it alone. The team should work together to share
 knowledge. This could avoid alienation and/or isolation of the workers.
+**4. Using issues to track project needs** avoids the strange fenomenom where an engineer wants to help yet does not know where to. It's a powerful communication tool and should be used as such.
 
 As corrective measures would involve finishing up the work started, they will not be cited.
