@@ -69,12 +69,16 @@ The project may be finished after forking, but the current repo should remain as
 
 ## Corrective and Preventative Measures
 The remainders of the squad 8 analyses the following preventive measures to allow a better future project:
+
 **1. There should be no sprint skipping whatsoever.** This messes up the flow of the project and catching up is much harder 
 in practice than in theory.
+
 **2. Communication should be, as XP ensures its much better, in person.** Working with other people is much easier in a physical environment 
 rather than a virtual one. And, above all, **proper communication must be ensured;** guaranteed.
+
 **3. Seeking help as soon as a roadblock is found** will be exponentially faster than fixing it alone. The team should work together to share
 knowledge. This could avoid alienation and/or isolation of the workers.
+
 **4. Using issues to track project needs** avoids the strange fenomenom where an engineer wants to help yet does not know where to. It's a powerful communication tool and should be used as such.
 
 As corrective measures would involve finishing up the work started, they will not be cited.
