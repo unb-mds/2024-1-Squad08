@@ -15,7 +15,7 @@ alcançar os resultados desejados para este software: um aplicativo de aluguel f
 > **01/04/24 :** A arquitetura básica e os requisitos foram levantados. Muito mais tarde descobriríamos que essa arquitetura era falha, a API deveria conter também o
 webscrapper. Também dividimos as pilhas e tarefas entre os membros, primeiro focando em aprender as principais tecnologias que seriam usadas ao longo do projeto. a API também nunca chegou perto de ser implementada adequadamente nem completamente ou vagamente compreendida.
 >
-> **02/04/24 :** As escolhas de tecnologia iniciais foram selecionadas nesse dia. Apesar da falta de experiência com os membros para desenvolvimento web com nodeJS, por popularidade na indústria, foi a linguagem selecionada, juntamente com as frameworks React e Express para, respectivamente, o frontend e o backend. A escolha inicial do banco de dados seria o postgreSQL, mas foi posteriormente alterada para o MySQL, dado que o MySQL é o padrão que é ensinado dentro da nossa instituição.
+> **02/04/24 :** As escolhas de tecnologia iniciais foram selecionadas nesse dia. Apesar da falta de experiência com os membros para desenvolvimento web com nodeJS, por popularidade na indústria, foi a linguagem selecionada, juntamente com as frameworks React e Express para, respectivamente, o frontend e o backend. A escolha inicial do banco de dados seria o postgreSQL, mas foi posteriormente alterada para o MySQL, dado que o MySQL é o padrão que é ensinado dentro da nossa instituição. Tais escolhas impactariam no ciclo de desenvolvimento diretamente, pois a grande parcela dos engenheiros não tinham experiência em nenhuma das escolhas feitas, o que dificultou os ciclos de aprendizagem e implementação futuros.
 >
 > **04/04/24 :** O Github Actions foi implementado pela primeira vez neste dia. Um ticket informal para implementar isso foi postado no WhatsApp. Isso fornece o primeiro insight sobre o que deu errado. Levaria 4 meses até uma implementação mais adequada, pois não havia urgência, já que isso era encarado como um aspecto opcional do projeto.
 >
@@ -24,6 +24,8 @@ webscrapper. Também dividimos as pilhas e tarefas entre os membros, primeiro fo
 > **08/04/24 :** A greve da universidade foi anunciada. Neste ponto, a maior parte do projeto ainda estava em seus primeiros passos, mas ainda tinha possibilidade de ser finalizada. No entanto, a greve e a decisão do esquadrão de trabalhar somente quando a greve terminasse findaria sendo uma péssima ideia.
 >
 > **26/04/24 :** A primeira versão do frontend foi finalizada. Embora ainda bastante rudimentar, foi um bom começo e teoricamente teriamos tempo para finalizá-la.
+>
+> **28/04/24 :** Após uma perda de tempo com o postgreSQL, em reunião, o squad decidiu por utilizar o MySQL como tecnologia de banco de dados, em razão de, como já explicado, este ser o padrão de ensino na nossa instituição.
 >
 > **07/05/24 :** Chegou ao conhecimento do esquadrão que nenhuma outra apresentação ocorreria até que a greve chegasse ao fim. A maioria das alterações no projeto base foi feita durante este período.
 >
@@ -67,12 +69,19 @@ O projeto pode ser concluído após uma bifurcação, mas o repositório atual p
 
 ## Medidas corretivas e preventivas
 O restante do esquadrão 8 analisa as seguintes medidas preventivas para facilitar projetos futuros:
+
 **1. Nenhuma sprint deve ser pulada.** Isso atrapalha o fluxo do projeto e recuperar o atraso é muito mais difícil
-na prática do que na teoria.
+na prática do que na teoria. Não mais trabalho do que o que pode ser completado em uma sprint deve ser passado para um engenheiro.
+
 **2. A comunicação deve ser, como o XP garante que é muito melhor, pessoalmente.** Trabalhar com outras pessoas é muito mais fácil em um ambiente físico
 do que em um virtual, isso é simplesmente um fator de trabalhar com outros seres humanos. E, acima de tudo, **a comunicação adequada deve ser garantida com a maior prioridade possível.**
+
 **3. Buscar ajuda assim que um obstáculo for encontrado** será exponencialmente mais rápido do que consertá-lo sozinho. A equipe deve trabalhar em conjunto para compartilhar
 conhecimento. Isso pode evitar alienação e/ou isolamento dos engenheiros.
+
 **4. Utilizar as Issues para corretamente mapear as necessidades do projeto** evita o estranho fenômeno onde o engenheiro quer trabalhar mas não tem certeza de onde realizar o serviço. É uma **poderosa** ferramenta de comunicação e _deve_ ser usada como tal, o que ajuda com a medida preventiva (2).
+
+**5. Issues precisam ser curtas, diretas e completáveis em uma sprint.** Issues grandes sobrecarregam os engenheiros e causam desmotivação quando inevitavelmente não forem completadas.
+
 
 Como as medidas corretivas envolveriam terminar o trabalho iniciado, elas não serão citadas por razões explicadas na sessão de _Resolução e recuperação_.
